@@ -1,11 +1,11 @@
 import $ from "jquery";
 
-$('body').html(`
+$('body').append(`
     <p>Holberton Dashboard<p>
 `);
-$('body').html(`
+$('body').append(`
     <p>Dashboard data for the students<p>
 `);
-$('body').html(`
+$('body').append(`
     <p>Copyright - Holberton School<p>
 `);
