@@ -28,7 +28,8 @@ module.exports = {
             imageLoader,
         ]
     },
-    mode: "development", 
+    mode: "development",
+    devtool: "inline-source-map",
     entry: {
         body: './modules/body/body.js',
         footer: './modules/footer/footer.js',
@@ -47,9 +48,7 @@ module.exports = {
         maxAssetSize: 1000000,
     },
     devServer: {
-        static: {
-            directory: path.join(__dirname, 'public'),
-        },
+        contentBase: path.join(__dirname, './public'),
         compress: true,
         port: 8564,
     },
