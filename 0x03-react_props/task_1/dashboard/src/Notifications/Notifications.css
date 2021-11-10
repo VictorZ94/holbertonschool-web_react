@@ -1,0 +1,13 @@
+div.Notifications {
+    border: 2px dotted lightcoral;
+    padding: 5px 5px 5px 5px;
+    margin: 0 50px 0 50px;
+}
+
+li[data-priority='default'] {
+    color: blue
+}
+
+li[data-priority='urgent'] {
+    color: red;
+}
